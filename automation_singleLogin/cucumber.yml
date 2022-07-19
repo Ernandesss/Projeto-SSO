@@ -1,0 +1,10 @@
+---
+default: --publish-quiet -p html_report -p homol
+
+### Ambientes ###
+dev: AMBIENTE=dev
+homol: AMBIENTE=homol
+
+### Reports ###
+html_report: --format pretty -f html -o reports/features_report.html
+

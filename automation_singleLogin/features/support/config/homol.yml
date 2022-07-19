@@ -1,0 +1,4 @@
+base_uri: 'http://singlelogin.azr-hml02.dasaexp.io'
+token: 'https://id-hml.dasa.com.br/auth/realms/Funcionarios/protocol/openid-connect'
+Tests: var jsonData = pm.response.json();
+       pm.globals.set("access_token", jsonData.access_token)

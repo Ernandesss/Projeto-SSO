@@ -1,0 +1,2 @@
+base_uri: 'http://singlelogin.azr-dev02.dasaexp.io'
+token: 'https://id-hml.dasa.com.br/auth/realms/Funcionarios/protocol/openid-connect'
